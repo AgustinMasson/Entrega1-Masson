@@ -1,0 +1,21 @@
+{% extends "MiNBA/padre.html" %}
+
+{% load static %}
+
+{% block Franquicias %}
+  <footer style="background-color:white">
+    <ul>
+        {% for equipo in object_list %}
+           <li> Team: {{equipo.nombre}} </li>
+           <li> City: {{equipo.ciudad}} </li>
+           <li> Stadium: {{equipo.estadio}} </li>
+           <li> Championships: {{equipo.campeonatos}} </li>
+           <li> Last Championship: {{equipo.ultcampeonato}} </li>
+           <li> Colors: {{equipo.colores}} </li> 
+        {% endfor %}
+    </ul>
+  
+    <a href="{% url 'InsertFranchise' %}" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-1 u-hover-white u-radius-50 u-text-body-alt-color u-text-hover-custom-color-1 u-btn-1">INSERT</a><a href="{% url 'SearchFranchise' %}" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-1 u-hover-white u-radius-50 u-text-body-alt-color u-text-hover-custom-color-1 u-btn-1">SEARCH</a>
+    
+  </footer>
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends "MiNBA/padre.html" %}
+
+{% load static %}
+
+{% block Historia %}
+
+    <footer style="background-color:white">
+
+    
+        {% if campeones %}
+
+           <p>We are looking for season {{temporada}}</p>
+
+           <ul>
+                {% for campeon in campeones %}
+                <li> Season: {{campeon.temporada}} </li>
+                <li> Champion: {{campeon.campeon}} </li>
+                <li> Runner-up: {{campeon.sub}} </li>
+                <li> Series: {{campeon.serie}} </li>
+                <li> FMVP: {{campeon.fmvp}} </li>
+                <li> MVP: {{campeon.mvp}} </li>
+                <li> Best Record: {{campeon.record}} </li>
+                <li> DPOTY: {{campeon.defensa}} </li>
+                {% endfor %}
+            </ul>
+        
+        {% else %}
+            
+            <p>No data with that description.</p>
+
+        {% endif %}
+
+        <p style="color:red;">{{respuesta}}</p>
+    
+    </footer>
+
+{% endblock %}

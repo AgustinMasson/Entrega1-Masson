@@ -1,0 +1,330 @@
+ .u-section-1 {
+  background-image: url("images/GettyImages-1138217303.jpg");
+  background-position: 39.93% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 1200px;
+}
+
+.u-section-1 .u-shape-1 {
+  width: 355px;
+  height: 63px;
+  margin: 187px 374px 0 auto;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin: -85px auto 0;
+}
+
+.u-section-1 .u-shape-2 {
+  width: 1106px;
+  height: 88px;
+  margin: 321px 0 0 auto;
+}
+
+.u-section-1 .u-text-2 {
+  margin: -102px auto 0 28px;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 279px auto 60px;
+  padding: 30px 80px 31px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1183px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-top: 276px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: -186px;
+  }
+
+  .u-section-1 .u-shape-2 {
+    width: 940px;
+    margin-top: 295px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: -255px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1222px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-top: 197px;
+    margin-right: 365px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: -107px;
+  }
+
+  .u-section-1 .u-shape-2 {
+    width: 720px;
+    margin-top: 334px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: -156px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1300px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-right: 185px;
+  }
+
+  .u-section-1 .u-shape-2 {
+    width: 540px;
+    margin-top: 412px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: -234px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1228px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 340px;
+    margin-top: 276px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+    margin-top: -186px;
+  }
+
+  .u-section-1 .u-shape-2 {
+    width: 340px;
+    margin-top: 386px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: -208px;
+  }
+} .u-section-2 {
+  background-image: url("images/Ranking-the-top-25-NBA-Players-going-into-2021-Thumbnail-1200x900.jpg");
+  background-position: 50% 0%;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 925px;
+}
+
+.u-section-2 .u-shape-1 {
+  width: 249px;
+  height: 63px;
+  margin: 248px auto 0 462px;
+}
+
+.u-section-2 .u-text-1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin: -92px auto 0 430px;
+}
+
+.u-section-2 .u-shape-2 {
+  width: 1090px;
+  height: 88px;
+  margin: 309px auto 0 13px;
+}
+
+.u-section-2 .u-text-2 {
+  margin: -104px 1px 0;
+}
+
+.u-section-2 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 88px auto 60px;
+  padding: 14px 50px 15px 49px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 763px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    margin-left: 239px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-left: 200px;
+  }
+
+  .u-section-2 .u-shape-2 {
+    width: 940px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 584px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    margin-left: 462px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-left: 121px;
+  }
+
+  .u-section-2 .u-shape-2 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 438px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    margin-left: 291px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-left: 154px;
+  }
+
+  .u-section-2 .u-shape-2 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 276px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    margin-left: auto;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 1.875rem;
+    margin-left: 83px;
+  }
+
+  .u-section-2 .u-shape-2 {
+    width: 340px;
+  }
+} .u-section-3 {
+  background-image: url("images/nba-champion-trophy.jpg");
+  background-position: 50% 71.49%;
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 643px;
+}
+
+.u-section-3 .u-shape-1 {
+  width: 233px;
+  height: 63px;
+  margin: 67px auto 0 39px;
+}
+
+.u-section-3 .u-text-1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin: -86px auto 0 0;
+}
+
+.u-section-3 .u-shape-2 {
+  width: 385px;
+  height: 307px;
+  margin: 92px auto 0 23px;
+}
+
+.u-section-3 .u-text-2 {
+  margin: -325px 732px 0 13px;
+}
+
+.u-section-3 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: -69px 85px 60px auto;
+  padding: 3px 44px 5px 43px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 530px;
+  }
+
+  .u-section-3 .u-text-2 {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+
+  .u-section-3 .u-btn-1 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 406px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 305px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 192px;
+  }
+
+  .u-section-3 .u-text-1 {
+    font-size: 1.875rem;
+  }
+
+  .u-section-3 .u-shape-2 {
+    width: 340px;
+    margin-left: 0;
+  }
+}

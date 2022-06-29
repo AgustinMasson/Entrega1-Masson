@@ -1,0 +1,23 @@
+{% extends "MiNBA/padre.html" %}
+
+{% load static %}
+
+{% block Historia %}
+  <footer style="background-color:white">
+    <ul>
+        {% for temporada in object_list %}
+        <li> Season: {{temporada.temporada}} </li>
+        <li> Champion: {{temporada.campeon}} </li>
+        <li> Runner-up: {{temporada.sub}} </li>
+        <li> Series: {{temporada.serie}} </li>
+        <li> FMVP: {{temporada.fmvp}} </li>
+        <li> MVP: {{temporada.mvp}} </li>
+        <li> Best Record: {{temporada.record}} </li>
+        <li> DPOTY: {{temporada.defensa}} </li>
+        {% endfor %}
+    </ul>
+  
+    <a href="{% url 'InsertHistory' %}" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-3 u-hover-white u-radius-50 u-text-body-alt-color u-text-hover-custom-color-3 u-btn-1">INSERT</a><a href="{% url 'SearchHistory' %}" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-3 u-hover-white u-radius-50 u-text-body-alt-color u-text-hover-custom-color-3 u-btn-1">SEARCH</a>
+    
+  </footer>
+{% endblock %}

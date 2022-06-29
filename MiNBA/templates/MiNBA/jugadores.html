@@ -1,0 +1,23 @@
+{% extends "MiNBA/padre.html" %}
+
+{% load static %}
+
+{% block Jugadores %}
+  <footer style="background-color:white">
+    <ul>
+        {% for jugador in object_list %}
+        <li> Name: {{jugador.nombre}} </li>
+        <li> Last Name: {{jugador.apellido}} </li>
+        <li> Age: {{jugador.edad}} </li>
+        <li> Natioality: {{jugador.nacionalidad}} </li>
+        <li> Current Team: {{jugador.equipoact}} </li>
+        <li> Career Teams: {{jugador.equipos}} </li>
+        <li> Championships: {{jugador.campeonatos}} </li>
+        <li> All-Star Times: {{jugador.allstar}} </li>  
+        {% endfor %}
+    </ul>
+  
+    <a href="{% url 'InsertPlayer' %}" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-hover-white u-radius-50 u-text-body-alt-color u-text-hover-custom-color-2 u-btn-1">INSERT</a><a href="{% url 'SearchPlayer' %}" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-hover-white u-radius-50 u-text-body-alt-color u-text-hover-custom-color-2 u-btn-1">SEARCH</a>
+    
+  </footer>
+{% endblock %}

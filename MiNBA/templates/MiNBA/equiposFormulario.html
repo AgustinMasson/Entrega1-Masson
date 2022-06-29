@@ -1,0 +1,29 @@
+{% extends "MiNBA/padre.html" %}
+
+{% load static %}
+
+{% block Franquicias %}
+
+  <footer style="background-color:white">
+
+    {% if miFormulario.errors %}
+
+      <p style="color:red;">Están mal los datos, ingrese de nuevo</p>
+
+    {% endif %}
+
+    <form action="" method="POST">{% csrf_token %}
+
+       <table>
+
+        {{ miFormulario.as_table }}
+
+       </table>
+
+       <input type="submit", value="Enviar">
+ 
+
+    </form>
+  </footer>
+
+{% endblock %}

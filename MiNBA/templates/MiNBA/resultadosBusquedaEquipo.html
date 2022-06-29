@@ -1,0 +1,35 @@
+{% extends "MiNBA/padre.html" %}
+
+{% load static %}
+
+{% block Franquicias %}
+
+    <footer style="background-color:white">
+
+    
+        {% if franquicias %}
+
+           <p>We are looking for the city {{ciudad}}</p>
+
+           <ul>
+                {% for franquicia in franquicias %}
+                <li> Team: {{franquicia.nombre}} </li>
+                <li> City: {{franquicia.ciudad}} </li>
+                <li> Stadium: {{franquicia.estadio}} </li>
+                <li> Championships: {{franquicia.campeonatos}} </li>
+                <li> Last Championship: {{franquicia.ultcampeonato}} </li>
+                <li> Colors: {{franquicia.colores}} </li> 
+                {% endfor %}
+            </ul>
+        
+        {% else %}
+            
+            <p>No data with that description.</p>
+
+        {% endif %}
+
+        <p style="color:red;">{{respuesta}}</p>
+    
+    </footer>
+
+{% endblock %}
